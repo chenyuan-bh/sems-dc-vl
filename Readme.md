@@ -1,6 +1,6 @@
 # sems-dc-vl
 
-This repository contains data and code for UAV Visual Localization via SemSNet and MGMDBC
+This repository contains code for UAV Visual Localization via SemSNet and MGMDBC
 
 ## Training data
 
@@ -20,9 +20,15 @@ img1_paths: path to satellite imagery
 
 ```
 
-# Acknowledgements
+## Run
 
-# Citations
+```shell
+python image_matching.py --config matching_eval_base.yaml
+```
+
+## Acknowledgements
+
+## Citations
 
 If you want to use this work cite it using:
 

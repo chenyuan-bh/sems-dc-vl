@@ -9,7 +9,7 @@ import torch
 import torchvision.transforms as transforms
 import yaml
 
-from models.SeS_seg import *
+from models.SemSNet import *
 from utils.cv_utils import MatcherWrapper
 
 
@@ -105,9 +105,9 @@ def match(config):
     rgb_list, gray_list = load_imgs(config['img_paths'], config['network']['max_dim'])
     # load model
     if config['network']['aspp']['use_aspp']:
-        net = SeSNet_seg_e2_cat(config).to(device)
+        net = SemSNet_fuse(config).to(device)
     else:
-        net = SeSNet(train_config)
+        net = BaseNet(train_config)
     net.to(device).train()
 
     def count_param(model):

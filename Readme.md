@@ -1,12 +1,13 @@
 # sems-dc-vl
 
-This repository contains code for UAV Visual Localization via SemSNet and MGMDBC
+This repository contains code for UAV Visual Localization via Integrated Steerable Semantic Feature Learning and
+Density-based Clustering
 
 ## Installation
 
 ```shell
 git clone https://github.com/chenyuan-bh/sems-dc-vl.git && \
-conda create --name aslfeat python=3.8 -y && \
+conda create --name semsnet python=3.8 -y && \
 pip install -r requirements.txt && \
 conda activate semsnet
 ```
@@ -45,6 +46,6 @@ Comming soon
 
 We refer to the public implementation of [ASLFeat](https://github.com/lzx551402/aslfeat) for organizing the code.
 
-
+## License
 
 This work © 2024 by Yuan Chen is licensed under CC BY-NC-SA 4.0

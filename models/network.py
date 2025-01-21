@@ -1,3 +1,6 @@
+"""
+Copyright 2025, Yuan Chen, BHU.
+"""
 import collections
 import math
 import torch

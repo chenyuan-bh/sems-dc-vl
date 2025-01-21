@@ -1,0 +1,17 @@
+deepdish>=0.3.7
+e2cnn==0.2.2
+h5py>=3.7.0
+matplotlib>=3.5.2
+mmcv_full>=1.7.0
+numpy>=1.23.5
+opencv_python>=4.6.0.66
+pandas>=1.4.3
+path.py>=12.5.0
+Pillow>=10.3.0
+progressbar33>=2.4
+pycocotools>=2.0.7
+PyYAML>=6.0.1
+tensorboard>=2.13.0
+torch>=1.12.0
+torchvision>=0.13.0
+tqdm>=4.64.0

@@ -1,0 +1,41 @@
+model_path: 'ckpt.pth'#
+img_paths: [ '../GL3D/data/5a2a95f032a1c655cfe3de62/undist_images/00000000.jpg',
+             '../GL3D/data/5a2a95f032a1c655cfe3de62/undist_images/00000001.jpg' ]
+
+is_training: false
+network:
+  max_dim: 2048
+  det:
+    kpt_n: 8000
+    kpt_refinement: true
+    score_thld: 0.5
+    edge_thld: 10
+    multi_scale: true
+    multi_level: true
+    nms_size: 3
+    eof_mask: 5
+    need_norm: true
+    use_peakiness: true
+    weight: 1
+    norm_type: 2
+    func: 'sqrt+'
+  e2cnn:
+    use_e2: true
+    padding: 'zero1'
+    group_pool: false
+    nbr_rotations: 8
+    feat_dim: [ 8,16,32 ] #[32,64,128]v [12,24,48][8,16,32]
+    out_dim: [ 32,64,128 ]
+    restrict: -1
+    module: 'rgbcat'
+  aspp:
+    use_aspp: true
+    use_e2: true
+    type: 'mr'
+    num_class: 150
+    weight: 0.25
+match:
+  ratio_test: 0.9
+  cross_check: false
+  err_thld: 3
+  ransac: true #'h'

@@ -9,7 +9,7 @@ import torch
 import torchvision.transforms as transforms
 import yaml
 
-from models.SeS_seg import *
+from models.SemSNet import *
 from utils.cv_utils import MatcherWrapper
 
 

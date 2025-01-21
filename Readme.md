@@ -6,7 +6,7 @@ This repository contains code for UAV Visual Localization via SemSNet and MGMDBC
 
 - [GL3D](https://github.com/lzx551402/GL3D)
 - Semantic segmentation framework and model for labels
-  generation: [SSA](https://github.com/fudan-zvg/Semantic-Segment-Anything) [SegFormer] (https://huggingface.co/docs/transformers/model_doc/segformer):
+  generation: [SSA](https://github.com/fudan-zvg/Semantic-Segment-Anything), [SegFormer](https://huggingface.co/docs/transformers/model_doc/segformer):
 
 ## Preparation
 
@@ -28,8 +28,8 @@ python image_matching.py --config matching_eval_base.yaml
 
 ## Acknowledgements
 
-## Citations
+We refer to the public implementation of [ASLFeat](https://github.com/lzx551402/aslfeat) for organizing the code.
 
-If you want to use this work cite it using:
+
 
 This work © 2024 by Yuan Chen is licensed under CC BY-NC-SA 4.0

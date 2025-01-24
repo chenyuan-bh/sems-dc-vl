@@ -24,10 +24,19 @@ img1_paths: path to satellite imagery
 
 ```
 
+The trained model can be downloaded
+from [drive](https://drive.google.com/file/d/1_A17MJ0rMO6bAIkOxhNdKidTHixnuOEp/view?usp=sharing).
+
 ## Run
 
 ```shell
 python image_matching.py --config matching_eval_base.yaml
+```
+
+or
+
+```shell
+python image_matching_whole.py --config matching_eval.yaml
 ```
 
 ## Training
@@ -40,7 +49,7 @@ python image_matching.py --config matching_eval_base.yaml
 
 ### Train
 
-Comming soon
+Training details are presented in the manuscript. Scripts for training are coming soon.
 
 ## Acknowledgements
 

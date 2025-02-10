@@ -58,3 +58,16 @@ We refer to the public implementation of [ASLFeat](https://github.com/lzx551402/
 ## License
 
 This work © 2024 by Yuan Chen is licensed under CC BY-NC-SA 4.0
+
+If you find this project useful, please cite:
+
+```bibtex
+@article{Chen2025,
+   author = {Chen, Y. and Jiang, J.},
+   title = {UAV Visual Localization via Integrated Steerable Semantic Feature Learning and Density-based Clustering},
+   journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+   ISSN = {1558-2205},
+   DOI = {10.1109/TCSVT.2025.3539383},
+   year = {2025}
+}
+```

@@ -78,14 +78,12 @@ If you find this project useful, please cite:
 
 If you find the Changping dataset useful, please cite:
 
-```
+```bibtex
 @article{chen2023oblique,
   title={An oblique-robust absolute visual localization method for GPS-denied UAV with satellite imagery},
   author={Chen, Yuan and Jiang, Jie},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
-  volume={62},
-  pages={1--13},
   year={2023},
-  publisher={IEEE}
+  DOI={10.1109/TCSVT.2025.3539383}
 }
 ```

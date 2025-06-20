@@ -51,6 +51,10 @@ python image_matching_whole.py --config matching_eval.yaml
 
 Training details are presented in the manuscript. Scripts for training are coming soon.
 
+## Dataset
+
+New release of Changping dataset. Changping 1 and 2 can be downloaded from [GoogleDrive](https://drive.google.com/file/d/1KN9E8oJUUy20F6dcCVQrMxjn7Me6FyTl/view?usp=sharing). Please follow the terms of use.
+
 ## Acknowledgements
 
 We refer to the public implementation of [ASLFeat](https://github.com/lzx551402/aslfeat) for organizing the code.

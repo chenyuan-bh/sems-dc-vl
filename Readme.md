@@ -53,7 +53,7 @@ Training details are presented in the manuscript. Scripts for training are comin
 
 ## Dataset
 
-New release of Changping dataset. Changping 1 and 2 can be downloaded from [GoogleDrive](https://drive.google.com/file/d/1KN9E8oJUUy20F6dcCVQrMxjn7Me6FyTl/view?usp=sharing). Please follow the terms of use.
+New release of Changping dataset. Changping 1 and 2 can be downloaded from [GoogleDrive](https://drive.google.com/file/d/1KN9E8oJUUy20F6dcCVQrMxjn7Me6FyTl/view?usp=sharing).
 
 ## Acknowledgements
 
@@ -73,5 +73,19 @@ If you find this project useful, please cite:
    ISSN = {1558-2205},
    DOI = {10.1109/TCSVT.2025.3539383},
    year = {2025}
+}
+```
+
+If you find the Changping dataset useful, please cite:
+
+```
+@article{chen2023oblique,
+  title={An oblique-robust absolute visual localization method for GPS-denied UAV with satellite imagery},
+  author={Chen, Yuan and Jiang, Jie},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={62},
+  pages={1--13},
+  year={2023},
+  publisher={IEEE}
 }
 ```
